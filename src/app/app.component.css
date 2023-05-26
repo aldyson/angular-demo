@@ -1,0 +1,43 @@
+.flags {
+    display: flex;
+    height: 100px;
+}
+
+.flags .fi {
+    cursor: pointer;
+    flex: 1 1 auto;
+    margin: 0 20px;
+}
+
+.flag {
+    min-width: 30px;
+}
+
+.text-output {
+    border-left: 5px solid rgb(0 82 147 / 50%);
+    font-family: ZonaProRegular;
+    padding-left: 10px;
+}
+
+.saved-translation {
+    align-items: flex-start;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.saved-translation:hover {
+    background-color: rgb(229, 229, 229);
+    transition: background-color 0.2s ease;
+}
+
+.saved-translation .input {
+    font-family: ZonaProLight;
+}
+
+.saved-translation .translated {
+    font-family: ZonaProRegular;
+}

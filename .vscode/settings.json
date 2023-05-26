@@ -1,0 +1,32 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 180,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.semicolons": "insert",
+    "formatFiles.excludedFolders": [
+        "node_modules",
+        ".vscode",
+        ".angular",
+        ".git",
+        "dist",
+        ".chrome"
+    ],
+    "prettier.tabWidth": 4
+}

@@ -1,1 +1,98 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: ZonaProHairline;
+    src: url(src/assets/fonts/ZonaPro-Hairline.ttf);
+}
+
+@font-face {
+    font-family: ZonaProLight;
+    src: url(src/assets/fonts/ZonaPro-Light.ttf);
+}
+
+@font-face {
+    font-family: ZonaProRegular;
+    src: url(src/assets/fonts/ZonaPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: ZonaProBold;
+    src: url(src/assets/fonts/ZonaPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: ZonaProBlack;
+    src: url(src/assets/fonts/ZonaPro-Black.ttf);
+}
+
+/* Flags */
+/* Flag icons from https://flagicons.lipis.dev/ */
+
+.fib {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.fi {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+}
+
+.fi:before {
+    content: '\00a0';
+}
+
+.fi.fis {
+    width: 1em;
+}
+
+.fi-de {
+    background-image: url(src/assets/svgs/flags/de.svg);
+}
+
+.fi-es {
+    background-image: url(src/assets/svgs/flags/es.svg);
+}
+
+.fi-fr {
+    background-image: url(src/assets/svgs/flags/fr.svg);
+}
+
+.fi-gb {
+    background-image: url(src/assets/svgs/flags/gb.svg);
+}
+
+.fi-it {
+    background-image: url(src/assets/svgs/flags/it.svg);
+}
+
+.fi-se {
+    background-image: url(src/assets/svgs/flags/se.svg);
+}
+
+/* Validation Popover */
+ngb-popover-window.popover.error-popover {
+    animation: fadeIn 0.2s ease-in-out;
+    background-color: #dc3545;
+    border-radius: 30px;
+    font-family: ZonaProLight;
+    font-size: 14px;
+    max-width: unset;
+}
+
+ngb-popover-window.popover.error-popover .popover-arrow {
+    display: none;
+}
+
+ngb-popover-window.popover.error-popover .popover-body {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-style: italic;
+    padding: 5px 15px;
+}
